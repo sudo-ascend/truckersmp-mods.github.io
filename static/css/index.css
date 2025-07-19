@@ -15,9 +15,6 @@
         padding: 8px 15px;
         font-size: 14px;
     }
-    .team-member-card {
-        min-width: 550px;
-    }
 }
 
 
@@ -531,8 +528,5 @@ h4 {
     .advantage-card img {
         width: 16px;
         height: 16px;
-    }
-    .team-member-card {
-        width: 300px;
     }
 }
