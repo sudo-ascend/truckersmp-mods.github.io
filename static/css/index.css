@@ -529,4 +529,7 @@ h4 {
         width: 16px;
         height: 16px;
     }
+    .team-members-container {
+        min-width: 250px;
+    }
 }
