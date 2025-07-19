@@ -61,7 +61,7 @@
                         <!-- Карточка 1 -->
                         <div class="col-md-4">
                             <div class="advantage d-flex align-items-start p-3 rounded-3 card-feature advantage-card">
-                                <img src="images/check-mark.ico' %}" width="24" height="24" class="me-3">
+                                <img src="static/images/check-mark.ico" width="24" height="24" class="me-3">
                                 <div>
                                     <h4>Не является читом</h4>
                                     <p style="color:#b2b2b2;">Анализирует файлы игры, не изменяя их</p>
@@ -81,8 +81,9 @@
                         <!-- Карточка 3 -->
                         <div class="col-md-4">
                             <div class="advantage d-flex align-items-start p-3 rounded-3 card-feature advantage-card">
+                                <img src="static/images/check-mark.ico" width="24" height="24" class="me-3">
              images/check-mark.ico' %}" width="24" height="24" class="me-3">
-                                <div>
+                 <div>
                                     <h4>100% невидим для ETS2MP</h4>
                                     <p style="color:#b2b2b2;">В тракерсМП нет античита</p>
                                 </div>
@@ -97,7 +98,7 @@
                         <!-- Карточка 4 -->
                         <div class="col-md-4">
                             <div class="advantage d-flex align-items-start p-3 rounded-3 card-feature advantage-card">
-                                <img src="images/check-mark.ico" width="24" height="24" class="me-3">
+                                <img src="static/images/check-mark.ico" width="24" height="24" class="me-3">
                                 <div>
                                     <h4>Отключает урон трака</h4>
                                     <p style="color:#b2b2b2;">+ можно включить бесконечное топливо</p>
@@ -107,7 +108,7 @@
                         <!-- Карточка 5 -->
                         <div class="col-md-4">
                             <div class="advantage d-flex align-items-start p-3 rounded-3 card-feature advantage-card">
-                                <img src="images/check-mark.ico" width="24" height="24" class="me-3">
+                                <img src="static/images/check-mark.ico" width="24" height="24" class="me-3">
                                 <div>
                                     <h4>Скрывает реальную скорость</h4>
                                     <p style="color:#b2b2b2;">На спидометре 110, по факту 130</p>
@@ -117,7 +118,7 @@
                         <!-- Карточка 6 -->
                         <div class="col-md-4">
                             <div class="advantage d-flex align-items-start p-3 rounded-3 card-feature advantage-card">
-                                <img src="images/check-mark.ico" width="24" height="24" class="me-3">
+                                <img src="static/images/check-mark.ico" width="24" height="24" class="me-3">
                                 <div>
                                     <h4>Оптимизирован под рули</h4>
                                     <p style="color:#b2b2b2;">Кнопки не только на клавиатуре</p>
@@ -160,7 +161,7 @@
                             <p class="price" style="margin-top:102px">350 ₽</p>
                             <div class="card-actions">
                                 <a href="templates/all_news.html" class="btn btn-outline">Подробнее</a>
-                                <a href="https://funpay.com/users/15635673/" class="btn btn-primary funpay"><img src="images/funpay.png' %}" height="25"></a>
+                                <a href="https://funpay.com/users/15635673/" class="btn btn-primary funpay"><img src="static/images/funpay.png" height="25"></a>
                             </div>
                         </div>
                     </div>
@@ -180,7 +181,7 @@
                             <p class="price">650 ₽</p>
                             <div class="card-actions">
                                 <a href="templates/all_news.html" class="btn btn-outline">Подробнее</a>
-                                <a href="https://funpay.com/users/15635673/" class="btn btn-primary funpay"><img src="images/funpay.png' %}" height="25"></a>
+                                <a href="https://funpay.com/users/15635673/" class="btn btn-primary funpay"><img src="static/images/funpay.png' %}" height="25"></a>
                             </div>
                         </div>
                     </div>
@@ -228,39 +229,65 @@
     <div style="max-width: 850px; margin: 0 auto; padding: 30px 0;">
         <!-- Форма добавления комментария -->
         <form method="GET" class="comment-form" style="background-color: var(--card-bg); padding: 25px; border-radius: 8px; margin-bottom: 40px; box-shadow: var(--shadow-dark);">
-            <h3 style="color: var(--text-main); margin-top: 0; margin-bottom: 20px;">{% trans "Добавить комментарий" %}</h3>
+            <h3 style="color: var(--text-main); margin-top: 0; margin-bottom: 20px;">Добавить комментарий</h3>
 
             <div style="display: flex; gap: 20px; margin-bottom: 20px;">
                 <div style="flex: 1;">
-                    <label for="input-user-name" style="display: block; color: var(--text-secondary); margin-bottom: 8px; font-size: 14px;">{% trans "Имя" %}</label>
+                    <label for="input-user-name" style="display: block; color: var(--text-secondary); margin-bottom: 8px; font-size: 14px;">Имя</label>
                     <input id="input-user-name" type="text" name="name" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid var(--border-dark); background-color: var(--bg-dark); color: var(--text-main);">
                 </div>
             </div>
 
             <div style="margin-bottom: 20px;">
-                <label for="input-coment-text" style="display: block; color: var(--text-secondary); margin-bottom: 8px; font-size: 14px;">{% trans "Комментарий" %}</label>
+                <label for="input-coment-text" style="display: block; color: var(--text-secondary); margin-bottom: 8px; font-size: 14px;">Комментарий</label>
                 <textarea id="input-coment-text" name="comment" style="width: 100%; min-height: 100px; padding: 10px; border-radius: 4px; border: 1px solid var(--border-dark); background-color: var(--bg-dark); color: var(--text-main); resize: vertical;"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary" style="padding: 10px 25px; font-size: 16px;">{% trans "Опубликовать" %}</button>
+            <button type="submit" class="btn btn-primary" style="padding: 10px 25px; font-size: 16px;">Опубликовать</button>
         </form>
 
         <!-- Список комментариев -->
         <div class="comments-list" id="comments-container">
-            {% for comment in page_obj %}
             <div class="comment-item" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: var(--shadow-dark); position: relative; max-height:130px">
                 <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-                    <img class="github-icon" src="images/Anonimous.jpeg' %}" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <img class="github-icon" src="static/images/Anonimous.jpeg" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
                     <div>
-                        <p style="margin: 0; color: var(--text-main); font-weight: bold; font-size: 16px;">{{ comment.name }}</p>
+                        <p style="margin: 0; color: var(--text-main); font-weight: bold; font-size: 16px;">buy me a coffe</p>
                     </div>
                 </div>
-                <p style="color: var(--text-main); margin: 0 0 30px 0; line-height: 1.5; white-space: pre-wrap;">{{ comment.content }}</p>
+                <p style="color: var(--text-main); margin: 0 0 30px 0; line-height: 1.5; white-space: pre-wrap;">разраб написал код, но не хватило денег на нужный сервер, поэтому комментарии и фильтры не работают :(</p>
                 <p style="position: absolute; bottom: 10px; right: 15px; margin: 0; color: var(--text-secondary); font-size: 12px;">
-                    {{ comment.time_create|date:"d M Y H:i" }}
+                    19.07.25 22:53
                 </p>
             </div>
-            {% endfor %}
+
+            <div class="comment-item" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: var(--shadow-dark); position: relative; max-height:130px">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                    <img class="github-icon" src="static/images/Anonimous.jpeg" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p style="margin: 0; color: var(--text-main); font-weight: bold; font-size: 16px;">miirageeee</p>
+                    </div>
+                </div>
+                <p style="color: var(--text-main); margin: 0 0 30px 0; line-height: 1.5; white-space: pre-wrap;">ну бан не прилетел</p>
+                <p style="position: absolute; bottom: 10px; right: 15px; margin: 0; color: var(--text-secondary); font-size: 12px;">
+                    22.05.25 15:12
+                </p>
+            </div>
+
+            <div class="comment-item" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: var(--shadow-dark); position: relative; max-height:130px">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+                    <img class="github-icon" src="static/images/Anonimous.jpeg" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;">
+                    <div>
+                        <p style="margin: 0; color: var(--text-main); font-weight: bold; font-size: 16px;">asenaris</p>
+                    </div>
+                </div>
+                <p style="color: var(--text-main); margin: 0 0 30px 0; line-height: 1.5; white-space: pre-wrap;">radar lies a little in unpopulated places, but it works great on DD</p>
+                <p style="position: absolute; bottom: 10px; right: 15px; margin: 0; color: var(--text-secondary); font-size: 12px;">
+                    16.04.25 13:00
+                </p>
+            </div>
+
+
         </div>
         <div class="circle-pagination">
                 <span class="circle-pagination__item circle-pagination__item--disabled">&lt;</span>
@@ -269,7 +296,7 @@
                 <span class="circle-pagination__item circle-pagination__item--active">3</span>
                 <span class="circle-pagination__item circle-pagination__item--active">4</span>
                 <span class="circle-pagination__item circle-pagination__item--active">5</span>
-                <a class="circle-pagination__item" href="?page={{ page_obj.next_page_number }}">&gt;</a>
+                <a class="circle-pagination__item" href="#">&gt;</a>
         </div>
     </div>
 </section>
@@ -287,7 +314,7 @@
             <!-- Грачев Илья -->
             <div class="card team-member-card" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: var(--shadow-dark);">
                 <div style="display: flex; gap: 20px;">
-                    <img src="media/images/Ilya.jpg" alt="Грачев Илья" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
+                    <img src="static/images/Ilya.jpg" alt="Грачев Илья" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
                     <div style="flex: 1;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                             <h3 style="color: var(--text-main); margin: 0;">Грачев Илья</h3>
@@ -304,7 +331,7 @@
             <!-- Федор Сапронов -->
             <div class="card team-member-card" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: var(--shadow-dark);">
                 <div style="display: flex; gap: 20px;">
-                    <img src="media/images/Fedor.jpg" alt="Федор Сапронов" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
+                    <img src="static/images/Fedor.jpg" alt="Федор Сапронов" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
                     <div style="flex: 1;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                             <h3 style="color: var(--text-main); margin: 0;">Федор Сапронов</h3>
@@ -321,7 +348,7 @@
             <!-- Алексей Цуканов -->
             <div class="card team-member-card" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: var(--shadow-dark);">
                 <div style="display: flex; gap: 20px;">
-                    <img src="media/images/Alex.jpg" alt="Алексей Цуканов" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
+                    <img src="static/images/Alex.jpg" alt="Алексей Цуканов" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
                     <div style="flex: 1;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                             <h3 style="color: var(--text-main); margin: 0;">Алексей Цуканов</h3>
@@ -338,7 +365,7 @@
             <!-- Виктория Аксенова -->
             <div class="card team-member-card" style="background-color: var(--card-bg); padding: 20px; border-radius: 8px; box-shadow: var(--shadow-dark);">
                 <div style="display: flex; gap: 20px;">
-                    <img src="media/images/Victoria.jpg" alt="Виктория Аксенова" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
+                    <img src="static/images/Victoria.jpg" alt="Виктория Аксенова" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent-blue);">
                     <div style="flex: 1;">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
                             <h3 style="color: var(--text-main); margin: 0;">Виктория Аксенова</h3>
