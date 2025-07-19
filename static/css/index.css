@@ -15,7 +15,13 @@
         padding: 8px 15px;
         font-size: 14px;
     }
+
 }
+@media (min-width: 768px) {
+            .team-members-container {
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+            }
+        }
 
 
 /* ====================== */
