@@ -15,8 +15,8 @@
         padding: 8px 15px;
         font-size: 14px;
     }
-    .team-members-container {
-        min-width: 650px;
+    .team-member-card {
+        min-width: 550px;
     }
 }
 
@@ -532,7 +532,7 @@ h4 {
         width: 16px;
         height: 16px;
     }
-    .team-members-container {
+    .team-member-card {
         width: 300px;
     }
 }
