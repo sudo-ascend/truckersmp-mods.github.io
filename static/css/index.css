@@ -514,9 +514,9 @@ h4 {
 
 @media (max-width: 767px) {
     .advantage-card {
-        height: 50px !important;
+        height: 60px ;
         overflow: hidden;
-        width: 60%;
+        width: 75%;
     }
     .advantage-card h4 {
         font-size: 14px;
