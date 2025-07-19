@@ -16,7 +16,7 @@
         font-size: 14px;
     }
     .team-members-container {
-        min-width: 550px;
+        width: 650px;
     }
 }
 
@@ -533,6 +533,6 @@ h4 {
         height: 16px;
     }
     .team-members-container {
-        min-width: 250px;
+        width: 300px;
     }
 }
