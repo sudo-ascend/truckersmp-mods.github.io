@@ -249,7 +249,7 @@ h4 {
 
 .tariff-card {
     flex: 1;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 400px;
     background-color: var(--card-bg);
     padding: 25px;
@@ -328,7 +328,7 @@ h4 {
 /* ====================== */
 .tariff-card-combined {
     flex: 1;
-    min-width: 400px;
+    min-width: 200px;
     max-width: 500px;
     background-color: var(--card-bg);
     border-radius: 40px;
