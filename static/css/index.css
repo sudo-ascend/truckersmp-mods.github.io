@@ -312,7 +312,7 @@ h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, transparent, 35%, black), url("static/images/background.jpg");
+    background-image: linear-gradient(to bottom, transparent, 35%, black), url('https://pic.rutube.ru/video/2025-02-04/9f/1b/9f1b105d9888db42978ece84ccd67cca.jpg');
     background-size: cover;
     background-position: center;
     z-index: 0;
